@@ -2,10 +2,17 @@
 
 ## Goal
 
+This project is a template for creating a website with `Next.js` and `TypeScript` using my favorite tools.
+
+This project use `eslint` and `prettier` for enforcing the style through the project. I also use `cypress` for managing the end-to-end test and the code coverage.
+
+Finally, I am using `jsdoc` and `better-doc` for having a beautiful development documentation.
+
 ## Plan of the presentation
 
 I explain with all the details how I build the project and my way of working.
 
+- [Installation](#installation)
 - [Documentation](#documentation)
 - [Organization](#organization)
 - [Development](#development)
@@ -13,6 +20,13 @@ I explain with all the details how I build the project and my way of working.
 - [Commands](#commands)
 - [Links](#links)
 
+## Installation
+
+For installing the project, a simple command is enough :
+
+```
+$ npm install
+```
 
 ## Documentation
 
