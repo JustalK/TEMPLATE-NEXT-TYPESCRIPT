@@ -9,7 +9,7 @@
     "lint": "next lint --fix",
     "build:docs": "npx jsdoc -c jsdoc.json -r ./src ./README.md",
     "test": "start-test dev 3000 cypress:run",
-    "cypress:run": "nyc --reporter=html cypress run",
+    "cypress:run": "nyc --reporter=lcov --reporter=html --reporter=text-summary cypress run",
     "cypress:open": "cypress open",
     "cypress:coverage": "check-total --min 100"
   },
@@ -47,7 +47,11 @@
   },
   "nyc": {
     "reporter": [
-      "html"
+      "html",
+      "lcov"
+    ],
+    "exclude": [
+      "cypress/**"
     ]
   }
 }
