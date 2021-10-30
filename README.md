@@ -66,7 +66,8 @@ $ npm run build:docs
 - **swr**: For fetching data from api
 - **babel-plugin-istanbul**: For connecting istanbul with babel
 - **check-code-coverage**: For checing the code coverage from summary file
-- **nyc**: for running the command of the package in node_modules
+- **nyc**: For running the command of the package in node_modules
+- **clsx**: For handling the toggling of classname 
 - **sass**: For managing the style of the app under scss file
 - **start-server-and-test**: For launching the app then the test
 - **@cypress/code-coverage**: For connecting the
