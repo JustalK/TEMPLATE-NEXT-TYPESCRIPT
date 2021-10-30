@@ -11,7 +11,8 @@
     "test": "start-test dev 3000 cypress:run",
     "cypress:run": "nyc --reporter=lcov --reporter=html --reporter=json-summary --reporter=text-summary cypress run",
     "cypress:open": "cypress open",
-    "cypress:coverage": "check-total --min 100"
+    "cypress:coverage": "check-total --min 100",
+    "check-update": "npm outdated --depth=0"
   },
   "dependencies": {
     "@emotion/react": "^11.5.0",
