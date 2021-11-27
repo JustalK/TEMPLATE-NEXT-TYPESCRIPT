@@ -6,6 +6,8 @@ This project is a template for creating a website with `Next.js` and `TypeScript
 
 This project use `eslint` and `prettier` for enforcing the style through the project. I also use `cypress` for managing the end-to-end test and the code coverage.
 
+For the internalization, I am using `React-i18n` and I also installed the `Phrase` connection.
+
 Finally, I am using `jsdoc` and `better-doc` for having a beautiful development documentation.
 
 ## Plan of the presentation
@@ -29,6 +31,7 @@ $ npm install
 ```
 
 ## Documentation
+#### jsdoc
 
 The jsdoc can be generated locally with the following command :
 
@@ -67,7 +70,7 @@ $ npm run build:docs
 - **babel-plugin-istanbul**: For connecting istanbul with babel
 - **check-code-coverage**: For checing the code coverage from summary file
 - **nyc**: For running the command of the package in node_modules
-- **clsx**: For handling the toggling of classname 
+- **clsx**: For handling the toggling of classname
 - **sass**: For managing the style of the app under scss file
 - **start-server-and-test**: For launching the app then the test
 - **@cypress/code-coverage**: For connecting the
@@ -89,6 +92,18 @@ $ npm run build:docs
 - **@emotion/react**: Adding the style of react
 - **typescript**: Enforce type for js
 - **@typescript-eslint/parser**: Typescript official parser
+- **react-i18next/i18next**: For managing the internalization and translation
+- **i18next-phrase-in-context-editor-post-processor**: For activating the editor for Phrase
+
+## Development
+#### Phrase
+
+For using the internalization, the connection has been made with `Phrase` :
+
+```
+E-Mail: demo@phrase.com
+Password: phrase
+```
 
 ## Commands
 
